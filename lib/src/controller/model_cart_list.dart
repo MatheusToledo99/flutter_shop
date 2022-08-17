@@ -1,7 +1,7 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
-import 'package:shop_app/models/model_cart.dart';
-import 'package:shop_app/models/model_product.dart';
+import 'package:shop_app/src/models/model_cart.dart';
+import 'package:shop_app/src/models/model_product.dart';
 
 class CartList with ChangeNotifier {
   Map<String, Cart> _items = {};

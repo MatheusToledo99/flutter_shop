@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:shop_app/models/model_product_list.dart';
+import 'package:shop_app/src/pages/components/widget_app_drawer.dart';
+import 'package:shop_app/src/pages/components/widget_product_item.dart';
 import 'package:shop_app/utils/app_routes.dart';
-import 'package:shop_app/widgets/widget_app_drawer.dart';
-import 'package:shop_app/widgets/widget_product_item.dart';
 
 class ProductView extends StatelessWidget {
   const ProductView({Key? key}) : super(key: key);

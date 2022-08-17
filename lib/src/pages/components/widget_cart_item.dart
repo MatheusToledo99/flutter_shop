@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:shop_app/models/model_cart_list.dart';
-import 'package:shop_app/models/model_cart.dart';
+import 'package:shop_app/src/controller/model_cart_list.dart';
+import 'package:shop_app/src/models/model_cart.dart';
 
 class CartItemWidget extends StatelessWidget {
   const CartItemWidget({Key? key, required this.cartItem}) : super(key: key);

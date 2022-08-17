@@ -1,9 +1,9 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:flutter/material.dart';
-import 'package:shop_app/models/model_cart.dart';
-import 'package:shop_app/models/model_cart_list.dart';
-import 'package:shop_app/models/model_order.dart';
+import 'package:shop_app/src/controller/model_cart_list.dart';
+import 'package:shop_app/src/models/model_cart.dart';
+import 'package:shop_app/src/models/model_order.dart';
 
 class OrderList with ChangeNotifier {
   final _baseurl =
@@ -31,7 +31,8 @@ class OrderList with ChangeNotifier {
           'date': date.toIso8601String(),
           'products': cartList.items.values
               .map(
-                (Cart) => {
+                // ignore: non_constant_identifier_names
+                (Cart Cart) => {
                   'id': Cart.id,
                   'productId': Cart.productId,
                   'name': Cart.name,

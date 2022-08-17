@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:shop_app/models/model_product.dart';
 import 'package:shop_app/models/model_product_list.dart';
+import 'package:shop_app/src/models/model_product.dart';
 
 class ProductFormView extends StatefulWidget {
   const ProductFormView({Key? key}) : super(key: key);

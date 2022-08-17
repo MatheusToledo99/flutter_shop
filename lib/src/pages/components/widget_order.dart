@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:shop_app/models/model_order.dart';
+import 'package:shop_app/src/models/model_order.dart';
 
 class OrderWidget extends StatefulWidget {
   const OrderWidget({Key? key, required this.order}) : super(key: key);

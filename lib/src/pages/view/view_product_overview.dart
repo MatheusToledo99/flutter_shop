@@ -3,11 +3,11 @@
 import 'package:badges/badges.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:shop_app/models/model_cart_list.dart';
 import 'package:shop_app/models/model_product_list.dart';
+import 'package:shop_app/src/controller/model_cart_list.dart';
+import 'package:shop_app/src/pages/components/widget_app_drawer.dart';
+import 'package:shop_app/src/pages/components/widget_product_grid.dart';
 import 'package:shop_app/utils/app_routes.dart';
-import 'package:shop_app/widgets/widget_app_drawer.dart';
-import 'package:shop_app/widgets/widget_product_grid.dart';
 
 enum FilterOptions {
   Favorite,
