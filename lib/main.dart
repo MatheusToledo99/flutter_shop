@@ -3,8 +3,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:shop_app/models/model_product_list.dart';
-import 'package:shop_app/src/controller/model_cart_list.dart';
-import 'package:shop_app/src/controller/model_order_list.dart';
+import 'package:shop_app/src/controller/cart.dart';
+import 'package:shop_app/src/controller/order.dart';
 import 'package:shop_app/src/pages/view/view_cart.dart';
 import 'package:shop_app/src/pages/view/view_order.dart';
 import 'package:shop_app/src/pages/view/view_product.dart';
